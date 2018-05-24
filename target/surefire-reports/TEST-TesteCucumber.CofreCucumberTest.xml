@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="1" name="TesteCucumber.CofreCucumberTest" time="0.896" errors="3" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="TesteCucumber.CofreCucumberTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Tamiris\Documents\GitHub\CofreExemplo"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Tamiris\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.2\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Tamiris\AppData\Local\Microsoft\WindowsApps;C:\Users\Tamiris\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Tamiris"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Tamiris"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.2\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=TesteCucumber.CofreCucumberTest -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.2\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 8.2\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Verificar se o cofre faz valida\u00E7\u00E3o de senhas inv\u00E1lidas" name="Teste de inicializa\u00E7\u00E3o do cofre" time="0.245"/>
+  <testcase classname="Verificar se o cofre faz valida\u00E7\u00E3o de senhas inv\u00E1lidas" name="Teste de apagar dados digitados" time="0"/>
+  <testcase classname="Verificar se o cofre faz valida\u00E7\u00E3o de senhas inv\u00E1lidas" name="Teste com a porta n\u00E3o fechada" time="0.022"/>
+  <testcase classname="Verificar se o cofre faz valida\u00E7\u00E3o de senhas inv\u00E1lidas" name="Teste para digitar um numero com a porta fechada" time="0.012"/>
+  <testcase classname="Verificar se o cofre faz valida\u00E7\u00E3o de senhas inv\u00E1lidas" name="Teste para gravar senha valida para a porta fechada e destravada" time="0.014"/>
+  <testcase classname="Verificar se o cofre faz valida\u00E7\u00E3o de senhas inv\u00E1lidas" name="Teste de senha com menos de 6 d\u00EDgitos" time="0.017">
+    <failure message="expected:&lt;[senha precisa de 6 digitos. Tente novamente]&gt; but was:&lt;[1]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[senha precisa de 6 digitos. Tente novamente]&gt; but was:&lt;[1]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at TesteCucumber.DestravadoStep.deverá_ser_exibido_o_alerta(DestravadoStep.java:39)
+	at ✽.deverá ser exibido o alerta &quot;senha precisa de 6 digitos. Tente novamente&quot;(src/main/resources/cofreexemplo/destravado.feature:51)
+</failure>
+    <system-out>
+  Scenario: Teste de senha com menos de 6 dígitos                                  &amp;#27;[90m# src/main/resources/cofreexemplo/destravado.feature:48&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mque a porta do cofre está fechada&amp;#27;[0m                                        &amp;#27;[90m# DestravadoStep.que_a_porta_do_cofre_está_fechada()&amp;#27;[0m
+    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mpressionar o botão &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[32m do cofre&amp;#27;[0m                                             &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mdeverá ser exibido o alerta &quot;&amp;#27;[0m&amp;#27;[31m&amp;#27;[1msenha precisa de 6 digitos. Tente novamente&amp;#27;[0m&amp;#27;[31m&quot;&amp;#27;[0m &amp;#27;[90m# DestravadoStep.deverá_ser_exibido_o_alerta(String)&amp;#27;[0m
+      &amp;#27;[31morg.junit.ComparisonFailure: expected:&lt;[senha precisa de 6 digitos. Tente novamente]&gt; but was:&lt;[1]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at TesteCucumber.DestravadoStep.deverá_ser_exibido_o_alerta(DestravadoStep.java:39)
+	at ?.deverá ser exibido o alerta &quot;senha precisa de 6 digitos. Tente novamente&quot;(src/main/resources/cofreexemplo/destravado.feature:51)
+&amp;#27;[0m
+    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mque a porta do cofre está fechada&amp;#27;[0m                                        &amp;#27;[90m# DestravadoStep.que_a_porta_do_cofre_está_fechada()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mpressionar o botão &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[36m do cofre&amp;#27;[0m                                             &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[36m do cofre&amp;#27;[0m                                              &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mdeverá ser exibido o alerta &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1msenha precisa de 6 digitos. Tente novamente&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# DestravadoStep.deverá_ser_exibido_o_alerta(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Verificar se o cofre faz valida\u00E7\u00E3o de senhas inv\u00E1lidas" name="Teste para digitar numeros com a porta do cofre fechada  e posteriormente abrir e poder digitar novamente" time="0.017"/>
+  <testcase classname="Verificar se o cofre aceita" name="Solicitar abertura do cofre com senha inv\u00E1lida" time="0.008">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at TesteCucumber.DestravadoStep.pressionar_o_botão_do_cofre(DestravadoStep.java:78)
+	at ✽.pressionar o botão 1 do cofre(src/main/resources/cofreexemplo/travado.feature:7)
+</error>
+    <system-out>
+Feature: Verificar se o cofre aceita
+         senhas válidas e faz verificação de senhas inválidas 
+
+  Scenario: Solicitar abertura do cofre com senha inválida           &amp;#27;[90m# src/main/resources/cofreexemplo/travado.feature:5&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mque a porta do cofre esta travada&amp;#27;[0m                          &amp;#27;[90m# TravadoStep.que_a_porta_do_cofre_esta_travada()&amp;#27;[0m
+    &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31mpressionar o botão &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[31m do cofre&amp;#27;[0m                               &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at TesteCucumber.DestravadoStep.pressionar_o_botão_do_cofre(DestravadoStep.java:78)
+	at ?.pressionar o botão 1 do cofre(src/main/resources/cofreexemplo/travado.feature:7)
+&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m&amp;#27;[36m do cofre&amp;#27;[0m                                &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m&amp;#27;[36m do cofre&amp;#27;[0m                                &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m4&amp;#27;[0m&amp;#27;[36m do cofre&amp;#27;[0m                                &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m6&amp;#27;[0m&amp;#27;[36m do cofre&amp;#27;[0m                                &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m6&amp;#27;[0m&amp;#27;[36m do cofre&amp;#27;[0m                                &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão OK&amp;#27;[0m                                        &amp;#27;[90m# DestravadoStep.pressionar_o_botão_OK()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mdeverá ser exibido o alerta &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1msenha errada. Tente novamente&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# DestravadoStep.deverá_ser_exibido_o_alerta(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Verificar se o cofre aceita" name="Solicitar abertura do cofre com a senha com menos de 6 d\u00EDgitos" time="0.007">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at TesteCucumber.DestravadoStep.pressionar_o_botão_do_cofre(DestravadoStep.java:78)
+	at ✽.pressionar o botão 1 do cofre(src/main/resources/cofreexemplo/travado.feature:19)
+</error>
+    <system-out>
+  Scenario: Solicitar abertura do cofre com a senha com menos de 6 dígitos &amp;#27;[90m# src/main/resources/cofreexemplo/travado.feature:17&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mque a porta do cofre esta travada&amp;#27;[0m                                &amp;#27;[90m# TravadoStep.que_a_porta_do_cofre_esta_travada()&amp;#27;[0m
+    &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31mpressionar o botão &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[31m do cofre&amp;#27;[0m                                     &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at TesteCucumber.DestravadoStep.pressionar_o_botão_do_cofre(DestravadoStep.java:78)
+	at ?.pressionar o botão 1 do cofre(src/main/resources/cofreexemplo/travado.feature:19)
+&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão OK&amp;#27;[0m                                              &amp;#27;[90m# DestravadoStep.pressionar_o_botão_OK()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mdeverá ser exibido o alerta &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1msenha errada. Tente novamente&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m       &amp;#27;[90m# DestravadoStep.deverá_ser_exibido_o_alerta(String)&amp;#27;[0m
+    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mque a porta do cofre esta travada&amp;#27;[0m                                &amp;#27;[90m# TravadoStep.que_a_porta_do_cofre_esta_travada()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mpressionar o botão &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[36m do cofre&amp;#27;[0m                                     &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[36m do cofre&amp;#27;[0m                                      &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão OK&amp;#27;[0m                                              &amp;#27;[90m# DestravadoStep.pressionar_o_botão_OK()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mdeverá ser exibido o alerta &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1msenha errada. Tente novamente&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m       &amp;#27;[90m# DestravadoStep.deverá_ser_exibido_o_alerta(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Verificar se o cofre aceita" name="Solicitar abertura do cofre com senha v\u00E1lida" time="0.007">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at TesteCucumber.DestravadoStep.pressionar_o_botão_do_cofre(DestravadoStep.java:78)
+	at ✽.pressionar o botão 1 do cofre(src/main/resources/cofreexemplo/travado.feature:32)
+</error>
+    <system-out>
+  Scenario: Solicitar abertura do cofre com senha válida           &amp;#27;[90m# src/main/resources/cofreexemplo/travado.feature:30&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mque a porta do cofre esta travada&amp;#27;[0m                        &amp;#27;[90m# TravadoStep.que_a_porta_do_cofre_esta_travada()&amp;#27;[0m
+    &amp;#27;[31mWhen &amp;#27;[0m&amp;#27;[31mpressionar o botão &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[31m do cofre&amp;#27;[0m                             &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+	at TesteCucumber.DestravadoStep.pressionar_o_botão_do_cofre(DestravadoStep.java:78)
+	at ?.pressionar o botão 1 do cofre(src/main/resources/cofreexemplo/travado.feature:32)
+&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m&amp;#27;[36m do cofre&amp;#27;[0m                              &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m3&amp;#27;[0m&amp;#27;[36m do cofre&amp;#27;[0m                              &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m4&amp;#27;[0m&amp;#27;[36m do cofre&amp;#27;[0m                              &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m5&amp;#27;[0m&amp;#27;[36m do cofre&amp;#27;[0m                              &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m6&amp;#27;[0m&amp;#27;[36m do cofre&amp;#27;[0m                              &amp;#27;[90m# DestravadoStep.pressionar_o_botão_do_cofre(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mpressionar o botão OK&amp;#27;[0m                                      &amp;#27;[90m# DestravadoStep.pressionar_o_botão_OK()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mdeverá ser exibido o alerta &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1msenha correta. Cofre aberto&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m &amp;#27;[90m# DestravadoStep.deverá_ser_exibido_o_alerta(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Verificar se o cofre faz valida\u00E7\u00E3o" name="Teste para verifica\u00E7\u00E3o de n\u00FAmeros" time="0.004"/>
+  <testcase classname="Verificar se o cofre faz valida\u00E7\u00E3o" name="Teste para verifica\u00E7\u00E3o de senha v\u00E1lida" time="0.001"/>
+</testsuite>
